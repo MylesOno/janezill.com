@@ -1,0 +1,139 @@
+*{
+    font-family:verdana;
+}
+
+h1{
+    text-align:center;
+}
+
+p{
+  font-size:20px;
+  color:rgba(5, 5, 56, 0.952);
+  line-height: 1.3;
+}
+
+li{
+  font-size:20px;
+  line-height: 1.5;
+}
+
+.title{
+  font-size:45px;
+  padding:7px;
+  color:rgba(27, 15, 0, 0.836);
+}
+
+#container{
+    grid-template-rows: 80% 20%;
+}
+
+.about{
+    display:grid;
+    grid-template-columns: 40% 60%;
+    color:black;
+  }
+
+.determinants{
+    display:grid;
+    grid-template-columns: 60% 40%;
+  }
+
+#centerTextBlock{
+  align-content:center;
+}
+
+#detImage{
+	height:60%;
+}
+
+#detDescript{
+  vertical-align:middle;
+  padding:30px;
+  line-height: 1.6;
+}
+
+#view{
+	background-color: rgba(245, 245, 245, .25);
+  border: 5px solid;
+  border-color:rgba(59, 32, 1, .15);
+  border-radius: 30px;
+  padding:75px;
+}
+
+#picDiv{
+  padding-right:20px;
+}
+
+#janeImage{
+	height:60;
+}
+
+img{
+	text-align:center;
+  border-radius: 25px;
+	vertical-align:middle;
+}
+
+p{
+	display:inline;
+}
+
+body{
+	background-image:url("../images/goldenrods.jpg");
+  background-size: 100% 100%;
+}
+
+#contact{
+  padding:75;
+  background-color:rgb(2, 2, 37);
+  text-align:center;
+  border-radius: 15px;
+	vertical-align:middle;
+}
+
+#contact p{
+  color:white;
+  padding:50px;
+}
+
+.content{
+  padding:50px;
+}
+
+#nightContainer{
+  background-image:url("../images/NightSky.jpg");
+  background-size: 100% 100%;
+}
+
+.selfhelp{
+  line-height:1.7;
+}
+
+.TNO{
+  color:#dfddc6;
+  font-size:25px;
+  padding:30px;
+  line-height: 1.5;
+  text-indent:0;
+}
+
+.TNO li{
+  font-size:25px;
+}
+
+.TNOtitle{
+  color:#dfddc6;
+}
+
+.socFacts{
+    line-height: 2;
+}
+
+#linked-logo{
+  height:50px;
+  border-radius: 5px;
+}
+
+.connect{
+  color:#1f77db;
+}
