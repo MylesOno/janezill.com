@@ -79,7 +79,6 @@ p{
 }
 
 body{
-	background-image:url("../images/goldenrods.jpg");
   background-size: 100% 100%;
 }
 
@@ -103,6 +102,10 @@ body{
 #nightContainer{
   background-image:url("../images/NightSky.jpg");
   background-size: 100% 100%;
+}
+
+#boardLinks{
+  color:#75c4ee
 }
 
 .selfhelp{
